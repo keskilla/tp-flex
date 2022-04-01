@@ -1,0 +1,19 @@
+
+.flex-container {
+    display: inline-flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    border: solid 4px #000;
+}
+
+#flex-item-1 {
+    background-color: blueviolet;
+}
+
+#flex-item-2 {
+    background-color: red;
+}
+
+#flex-item-3 {
+    background-color: burlywood;
+}
