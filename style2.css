@@ -1,0 +1,20 @@
+.grid-container {
+
+    border: solid 4px #000;
+    display:inline-grid; /*inline grid uniquement la place requise*/
+}
+
+.grid-container-2{
+    
+    border: solid 4px #000;
+    display:grid;
+    grid-template-columns: 6em 6em 6em 6em;
+}
+
+
+#grid-item-1 {
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:3;
+}
